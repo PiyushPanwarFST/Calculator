@@ -1,0 +1,24 @@
+
+.buttonsContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button{
+    background-color: rgb(53, 53, 53);
+    color: white;
+    height: 4rem;
+    width: 5rem;
+    margin: 3px;
+    cursor: pointer;
+    border-radius: 45%;
+    transition-duration: 0.3; 
+    border: none;
+    outline: none;
+    font-size: 2rem;
+}
+
+.button:hover{
+    background-color: rgb(72, 72, 72);
+}
